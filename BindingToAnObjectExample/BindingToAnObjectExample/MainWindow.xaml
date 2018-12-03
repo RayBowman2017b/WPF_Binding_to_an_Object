@@ -12,6 +12,11 @@
 
         <CollectionViewSource x:Key="EmpData" Source="{Binding Employees}" />
 
+
+       <!-- I am trying to change the Foreground property to Red for a ListBoxItem
+             with "Frank Hampton"
+          -->
+
         <!-- <Style TargetName="ListBoxItem">-->
         <!--<Style x:Key="LISTBOX_01_style" TargetType="ListBoxItem">-->
         <Style x:Key="LISTBOX_01_style" TargetType="ListBoxItem">

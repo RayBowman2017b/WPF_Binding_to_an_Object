@@ -1,0 +1,185 @@
+z64_posts.txt
+
+
+Trying to apply style to listbox items.
+
+
+Hi all,
+
+I'm taking a course for WPF on Udemy. The course is somewhat dated,
+and the instructor isn't participating in the Q & A forum for the course.
+
+I'm deviating from the course a bit in trying to apply a style to a
+particular data item for a particular listbox control.
+
+
+My code is listed here, but can also be accessed on Github with the following link:
+https://github.com/RayBowman2017b/WPF_Binding_to_an_Object/tree/master/BindingToAnObjectExample
+
+
+BindingToAnObjectExample\BindingToAnObjectExample\App.xaml
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+<Application x:Class="BindingToAnObjectExample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BindingToAnObjectExample"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+
+BindingToAnObjectExample\BindingToAnObjectExample\App.xaml.cs
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+using System.Windows;
+
+namespace BindingToAnObjectExample
+{
+    public partial class App : Application
+    {
+    }
+}
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+
+BindingToAnObjectExample\BindingToAnObjectExample\Employee.cs
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BindingToAnObjectExample
+{
+   public class Employee
+    {
+        public string EmployeeName { get; set; }
+    }
+}
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+
+BindingToAnObjectExample\BindingToAnObjectExample\SampleData.cs
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+
+namespace BindingToAnObjectExample
+{
+    public class SampleData
+    {
+        public ObservableCollection<Employee> EmployeeList = new ObservableCollection<Employee>();
+
+        public SampleData()
+        {
+            EmployeeList.Add(new Employee() { EmployeeName = "Mark Long" });
+            EmployeeList.Add(new Employee() { EmployeeName = "Frank Hampton" });
+            EmployeeList.Add(new Employee() { EmployeeName = "Jessica Chambly" });
+            EmployeeList.Add(new Employee() { EmployeeName = "Lauren Nicolette" });
+            EmployeeList.Add(new Employee() { EmployeeName = "Janet Roberts" });
+
+
+        }
+    }
+}
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+
+
+Here, I am trying to change the Foreground property to Red for a ListBoxItem with
+"Frank Hampton":
+
+BindingToAnObjectExample\BindingToAnObjectExample\MainWindow.xaml
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+<Window x:Class="BindingToAnObjectExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BindingToAnObjectExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}">
+
+    <Window.Resources>
+
+        <CollectionViewSource x:Key="EmpData" Source="{Binding Employees}" />
+
+
+        <!-- I am trying to change the Foreground property to Red for a ListBoxItem
+             with "Frank Hampton"
+          -->
+
+        <!-- <Style TargetName="ListBox">-->
+        <!--<Style x:Key="LISTBOX_01_style" TargetType="ListBoxItem">-->
+        <Style x:Key="LISTBOX_01_style" TargetType="ListBoxItem">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding EmployeeName}" Value="Frank Hampton">
+                    <Setter Property="Foreground" Value="Red" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>        
+
+    </Window.Resources>    
+
+    <Grid>
+                 <!-- Style="{StaticResource LISTBOX_01_style}" -->
+        <ListBox x:Name="LISTBOX_01"
+                 ItemsSource="{Binding Source={StaticResource EmpData}}" >
+                 <!-- DisplayMemberPath="EmployeeName" -->
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="100" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="NAME " />
+                        <!--  TextBlock Grid.Column="1" Text="{Binding EmployeeName}" -->
+                        <TextBlock Grid.Column="1" Text="{Binding EmployeeName}"
+                                   Style="{StaticResource LISTBOX_01_style}" />
+                                   <!--  ItemsSource="{Binding Source={StaticResource EmpData}}"
+                                   DisplayMemberPath="EmployeeName" /  -->
+
+                        <!--  TextBlock Text="{Binding Title}" / -->
+                        <!--  ProgressBar Grid.Column="1" Minimum="0" Maximum="100" Value="{Binding Completion}" / -->
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+
+BindingToAnObjectExample\BindingToAnObjectExample\MainWindow.xaml.cs
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+using System.Collections.ObjectModel;
+using System.Windows;
+
+namespace BindingToAnObjectExample
+{
+    public partial class MainWindow : Window
+    {
+        SampleData sdata = new SampleData();
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        public ObservableCollection<Employee> Employees {  get { return sdata.EmployeeList; } }
+    }
+}
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+
+
+THANKS!
