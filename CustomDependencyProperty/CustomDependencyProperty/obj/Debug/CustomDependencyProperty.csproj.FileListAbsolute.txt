@@ -1,0 +1,31 @@
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\bin\Debug\CustomDependencyProperty.exe.config
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\bin\Debug\CustomDependencyProperty.exe
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\bin\Debug\CustomDependencyProperty.pdb
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.csprojResolveAssemblyReference.cache
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\MainWindow.g.cs
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\App.g.cs
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty_MarkupCompile.cache
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty_MarkupCompile.lref
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\MainWindow.baml
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.g.resources
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.Properties.Resources.resources
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.csproj.GenerateResource.Cache
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.exe
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.pdb
+c:\users\mark long\documents\visual studio 2015\Projects\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\GeneratedInternalTypeHelper.g.cs
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\bin\Debug\CustomDependencyProperty.exe.config
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\bin\Debug\CustomDependencyProperty.exe
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\bin\Debug\CustomDependencyProperty.pdb
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.csprojResolveAssemblyReference.cache
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\MainWindow.g.cs
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\App.g.cs
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\GeneratedInternalTypeHelper.g.cs
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty_MarkupCompile.cache
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty_MarkupCompile.lref
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\MainWindow.baml
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.g.resources
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.Properties.Resources.resources
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.csproj.GenerateResource.Cache
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.csproj.CoreCompileInputs.cache
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.exe
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty\obj\Debug\CustomDependencyProperty.pdb

@@ -1,0 +1,61 @@
+z32_Notes.txt
+
+1: K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\ControlTemplateExample\ControlTemplateExample.sln
+2: K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\CustomDependencyProperty\CustomDependencyProperty.sln
+3: K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example.sln
+4: K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\BindingToAnObjectExample\BindingToAnObjectExample.sln
+
+
+Understanding Triggers
+
+###########################################################################
+SEC 8 - L51
+###########################################################################
+
+    XAML provides several triggers
+        * Property triggers
+            * Activates as soon as a property value changes
+        * Multi-triggers
+            * Based upon multiple property values
+        * Event triggers
+            * Fire when an event occurs
+        * Data triggers
+            * Invoked when bound data fulfills specific conditions
+
+###########################################################################
+SEC 8 - L51
+SEC 8 - L52
+###########################################################################
+
+Property triggers
+
+1: K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\
+SEC_008\ControlTemplateExample\ControlTemplateExample.sln
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+###########################################################################
+SEC 8 - L53
+###########################################################################
+
+2: K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\
+SEC_008\CustomDependencyProperty\CustomDependencyProperty.sln
+
+
+
+###########################################################################
+SEC 8 - L54
+###########################################################################
+
+3: K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\
+SEC_008\MultiTrigger Example\MultiTrigger Example.sln
+
+
+
+###########################################################################
+###########################################################################
+###########################################################################
+###########################################################################

@@ -1,0 +1,28 @@
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\bin\Debug\MultiTrigger Example.exe.config
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\bin\Debug\MultiTrigger Example.exe
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\bin\Debug\MultiTrigger Example.pdb
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MainWindow.g.cs
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\App.g.cs
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example_MarkupCompile.cache
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example_MarkupCompile.lref
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MainWindow.baml
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.g.resources
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger_Example.Properties.Resources.resources
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.csproj.GenerateResource.Cache
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.exe
+c:\users\mark long\documents\visual studio 2015\Projects\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.pdb
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.csprojResolveAssemblyReference.cache
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\App.g.cs
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example_MarkupCompile.cache
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.exe
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.pdb
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\bin\Debug\MultiTrigger Example.exe.config
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\bin\Debug\MultiTrigger Example.exe
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\bin\Debug\MultiTrigger Example.pdb
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MainWindow.g.cs
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example_MarkupCompile.lref
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MainWindow.baml
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.g.resources
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger_Example.Properties.Resources.resources
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.csproj.GenerateResource.Cache
+K:\A01_Udemy\C025_Advanced_WPF\Project_01\Working Files\SEC_008\MultiTrigger Example\MultiTrigger Example\obj\Debug\MultiTrigger Example.csproj.CoreCompileInputs.cache

@@ -1,0 +1,53 @@
+﻿<Window x:Class="BindingToAnObjectExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BindingToAnObjectExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}">
+
+    <Window.Resources>
+
+        <CollectionViewSource x:Key="EmpData" Source="{Binding Employees}" />
+
+        <!-- <Style TargetName="ListBoxItem">-->
+        <!--<Style x:Key="LISTBOX_01_style" TargetType="ListBoxItem">-->
+        <Style x:Key="LISTBOX_01_style" TargetType="ListBoxItem">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding EmployeeName}" Value="Frank Hampton">
+                    <Setter Property="Foreground" Value="Red" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>        
+
+    </Window.Resources>    
+
+    <Grid>
+                 <!-- Style="{StaticResource LISTBOX_01_style}" -->
+        <ListBox x:Name="LISTBOX_01"
+                 ItemsSource="{Binding Source={StaticResource EmpData}}" >
+                 <!-- DisplayMemberPath="EmployeeName" -->
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="100" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="NAME " />
+                        <!--  TextBlock Grid.Column="1" Text="{Binding EmployeeName}" -->
+                        <TextBlock Grid.Column="1" Text="{Binding EmployeeName}"
+                                   Style="{StaticResource LISTBOX_01_style}" />
+                                   <!--  ItemsSource="{Binding Source={StaticResource EmpData}}"
+                                   DisplayMemberPath="EmployeeName" /  -->
+
+                        <!--  TextBlock Text="{Binding Title}" / -->
+                        <!--  ProgressBar Grid.Column="1" Minimum="0" Maximum="100" Value="{Binding Completion}" / -->
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
